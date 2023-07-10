@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.header {
+  background-color: #f5f5f5;;
+  padding: 15px;
+}
+.header ul{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  color: #000;
+  padding: 0;
+}
+.header li a{
+  float: right;
+}
+span{
+    color:#f9004d;}
+li a:hover{
+  background-color: #ffffff;
+}
+.header li a{
+  text-decoration: none;
+  color: #000;
+  margin: 0;
+  display: block;
+  padding: 16px 20px;
+  font-weight: bold;
+  transform: scale(1.2); }
+[class*="row-1"]{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 520px;
+  background-size: cover;
+  text-align: center;
+  color: #f5f5f5;
+  font-size:  clamp(1rem,1rem + 2vw  ,2rem);
+}
+button{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border:2px solid transparent;
+  font-weight: bold;
+  padding: 10px 22px;
+  border-radius: 30px;
+  transition:  .4s;
+ }
+ button{
+  float: right;
+ }
+button:hover{
+  background-color: transparent;
+  border:2px solid#f9004d;
+  cursor: pointer;
+  }
+.container{
+  width: 100%;
+  height: auto;
+  background: #5e5e5e;
+  /*add flexbox style*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+
+  }
+.box{
+  width: 15rem;
+  height: 300px;
+  background:url("https://www.bing.com/th?id=OIP.SuOX5lb5SGt17Vkcgzk-jAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2");
+  margin: 20px auto;
+  box-sizing: border-box;
+  font-size: 20px;
+  border-radius: 30px;
+  text-align: center;
+  color: #ffff;
+  }
+  
+  
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-text h2 {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-me-text p {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f49;
+  padding: 40px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
+.bottom-links .links a:hover{
+  background-color: #f9004d;
+  transform: scale(1.2);
+}
+
+
+  /*add resposive media quaries*/
+  @media screen and(max-width:1200px) {
+    .box{
+      width:40%;
+    }
+    
+  }
+  @media screen and(max-width:600px) {
+    .box{
+      width:90%;
+    }
+    
+  }
+  @media screen and(max-width:357px) {
+    .box{
+      width:100%;
+    }
+    
+  }
+
+</style>
+</head>
+<body>
+<div class="header">
+    <ul>
+        <a href="#"class="logo">@IVAN <span>Profile</span></a>
+        <li><a href="contact.html">Contact</a></li>
+        <li style="float: left;"><a href="service.html">Services</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</div>
+ 
+<div class="row-1">
+  <div class="col-3 col-s-3 intro">
+        <main>
+          <button>SUbscribe</button>
+        <h1>Start something that matters</h1><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>The act of getting to know what to do at the right time</p>
+        <p>Find me find us all.</p>
+      
+        <button>Learn More</button>
+    </main>
+    </div>
+</div>
+<div class="container">
+  <div class="box">
+         <i class="fa-solid fa-barcode"></i>
+        <p class="work-heading">Projects</p>
+        <p class="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
+        <a class="button" href="#">Read More</a>
+      </div>
+    <div class="box">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">Skills</p>
+        <p class="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
+        <a class="button" href="#">Read More</a>
+      </div>
+      <div class="box">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading">Network</p>
+        <p class="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
+        <a class="button" href="#">Read More</a>
+      </div>
+      <div class="box">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading">Network</p>
+        <p class="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
+        <a class="button" href="#">Read More</a>
+      </div>
+    </div>
+    <div class="about-me">
+       <i class="fa-solid fa-barcode"></i>
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>I am a web developer and I love to create websites. I am a very good developer and I am always looking for new projects. I am a very good developer and I am always looking for new projects.</p>
+      </div>
+      <img src="https://th.bing.com/th/id/OIP.317-Pj1_j7UzwUzfZj21jQHaE6?w=264&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+    </div>
+    <footer class="footer">
+      <div class="copy">&copy; Care Quest</div>
+      <div class="bottom-links">
+        <div class="links">
+          <span>More Info</span>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="service.html">Services</a>
+          <a href="login.html">Login</a>
+        </div>
+        <div class="links">
+          <span>Social Links</span>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fa-thin fa-location-dot"></i></a>
+          <a href="#"><i class="fa-thin fa-thumbs-up"></i></a>
+        </div>
+      </div>
+</body>
+</html>
